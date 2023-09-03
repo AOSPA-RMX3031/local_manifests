@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="AOSPA-RMX3031" fetch="https://github.com/AOSPA-RMX3031" />
+    <remote name="soulspark666" fetch="https://github.com/soulspark666" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+
+    <!-- Device tree -->
+    <project path="device/realme/RMX3031"
+             name="android_device_realme_RMX3031"
+             remote="soulspark666"
+             revision="topaz"
+             clone-depth="1" />
+
+    <project path="vendor/realme/RMX3031"
+             name="vendor_realme_RMX3031"
+             remote="AOSPA-RMX3031"
+             revision="RMUI4-OSS"
+             clone-depth="1" />
+
+    <project path="device/realme/RMX3031-kernel"
+             name="kernel_realme_RMX3031"
+             remote="AOSPA-RMX3031"
+             revision="topaz"
+             clone-depth="1" />
+
+    <!-- Firmware and other dependencies -->
+    <project path="device/mediatek/sepolicy_vndr"
+             name="android_device_mediatek_sepolicy_vndr"
+             remote="AOSPA-RMX3031"
+             revision="topaz"
+             clone-depth="1" />
+
+    <project path="hardware/mediatek"
+             name="android_hardware_mediatek"
+             remote="AOSPA-RMX3031"
+             revision="topaz"
+             clone-depth="1" />
+
+    <project path="hardware/oplus"
+             name="android_hardware_oplus"
+             remote="AOSPA-RMX3031"
+             revision="topaz"
+             clone-depth="1" />
+
+             
+    <project path="hardware/mediatek/wlan"
+             name="android_hardware_mediatek_wlan"
+             remote="AOSPA-RMX3031"
+             revision="lineage-20"
+             clone-depth="1" />
+             
+    <project path="vendor/realme-firmware/RMX3031"
+             name=" vendor_realme_RMX3031-firmware"
+             remote="AOSPA-RMX3031"
+             revision="topaz"
+             clone-depth="1" />
+
+    <project path="vendor/mediatek"
+             name="android_vendor_mediatek"
+             remote="AOSPA-RMX3031"
+             revision="topaz"
+             clone-depth="1" />
+
+    <project path="external/tinyxml"
+             name="platform/external/tinyxml"
+             remote="aosp"
+             revision="refs/tags/android-11.0.0_r46"
+             clone-depth="1" />
+    <!-- App packages -->
+    <!-- <remove-project name="platform/packages/apps/Camera2" /> -->
+
+    <!-- <project path="packages/apps/Aperture" -->
+    <!--          name="android_packages_apps_Aperture" -->
+    <!--          remote="LineageOS" -->
+    <!--          revision="lineage-20.0" -->
+    <!--          clone-depth="1" /> -->
+
+    <!-- <remove-project name="AOSPA/android_packages_services_Telephony" /> -->
+
+    <!-- <project path="packages/services/Telephony" -->
+    <!--          name="platform/packages/services/Telephony" -->
+    <!--          remote="aosp" -->
+    <!--          revision="refs/tags/android-13.0.0_r52" -->
+    <!--          clone-depth="1" /> -->
+
+    <!-- <remove-project name="AOSPA/android_packages_services_Telecomm" /> -->
+
+    <!-- <project path="packages/services/Telecomm" -->
+    <!--          name="platform/packages/services/Telecomm" -->
+    <!--          remote="aosp" -->
+    <!--          revision="refs/tags/android-13.0.0_r52" -->
+    <!--          clone-depth="1" /> -->
+
+    <!-- <project path="hardware/google/pixel" -->
+    <!--          name="platform/hardware/google/pixel" -->
+    <!--          remote="aosp" -->
+    <!--          revision="refs/tags/android-13.0.0_r52" -->
+    <!--          clone-depth="1" /> -->
+
+</manifest>
