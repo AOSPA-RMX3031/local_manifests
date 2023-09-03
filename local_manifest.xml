@@ -52,7 +52,7 @@
              clone-depth="1" />
              
     <project path="vendor/realme-firmware/RMX3031"
-             name=" vendor_realme_RMX3031-firmware"
+             name="vendor_realme_RMX3031-firmware"
              remote="AOSPA-RMX3031"
              revision="topaz"
              clone-depth="1" />
