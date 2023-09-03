@@ -19,7 +19,7 @@
              revision="RMUI4-OSS"
              clone-depth="1" />
 
-    <project path="device/realme/RMX3031-kernel"
+    <project path="kernel/realme/RMX3031"
              name="kernel_realme_RMX3031"
              remote="AOSPA-RMX3031"
              revision="topaz"
@@ -51,7 +51,7 @@
              revision="lineage-20"
              clone-depth="1" />
              
-    <project path="vendor/realme-firmware/RMX3031"
+    <project path="vendor/realme/RMX3031-firmware"
              name="vendor_realme_RMX3031-firmware"
              remote="AOSPA-RMX3031"
              revision="topaz"
